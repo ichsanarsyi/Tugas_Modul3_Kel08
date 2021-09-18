@@ -57,13 +57,14 @@ class Id extends Component {
         </div>
         <br />
         <br />
-        <div style={{ marginLeft:"80px" }}>
-        <label for="Kode Transaksi:">Kode Transaksi:</label>
-        <br />
-        <span style={{ color: "#6e0234" }}>
-          {this.state.idPembelian}
-          {this.state.noKasir}
-        </span></div>
+        <div style={{ marginLeft: "80px" }}>
+          <label for="Kode Transaksi:">Kode Transaksi:</label>
+          <br />
+          <span style={{ color: "#6e0234" }}>
+            {this.state.idPembelian}
+            {this.state.noKasir}
+          </span>
+        </div>
       </>
     );
   }
